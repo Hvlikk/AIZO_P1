@@ -49,23 +49,23 @@ cmake_ninja_workdir = C$:/Users/Miłosz/CLionProjects/Aizo2/cmake-build-debug/
 
 build cmake_object_order_depends_target_Aizo2: phony || CMakeFiles/Aizo2.dir
 
-build CMakeFiles/Aizo2.dir/main.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/main.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\main.cpp.obj.d
+build CMakeFiles/Aizo2.dir/App/main.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/main.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\App\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App
 
-build CMakeFiles/Aizo2.dir/menu.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/menu.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\menu.cpp.obj.d
+build CMakeFiles/Aizo2.dir/App/menu.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/menu.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\App\menu.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App
 
-build CMakeFiles/Aizo2.dir/sorts.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/sorts.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\sorts.cpp.obj.d
+build CMakeFiles/Aizo2.dir/App/sorts.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/sorts.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\App\sorts.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App
 
 build CMakeFiles/Aizo2.dir/SortAlgorythms/HeapSort/HeapSort.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/HeapSort/HeapSort.cpp || cmake_object_order_depends_target_Aizo2
   DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\HeapSort\HeapSort.cpp.obj.d
@@ -85,11 +85,11 @@ build CMakeFiles/Aizo2.dir/SortAlgorythms/QuickSort/QuickSort.cpp.obj: CXX_COMPI
   OBJECT_DIR = CMakeFiles\Aizo2.dir
   OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\QuickSort
 
-build CMakeFiles/Aizo2.dir/SortAlgorythms/ShellSort/ShellSort.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/ShellSort/ShellSort.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\ShellSort\ShellSort.cpp.obj.d
+build CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/insertSortMenu.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/InsertSort/insertSortMenu.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\InsertSort\insertSortMenu.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\ShellSort
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\InsertSort
 
 
 # =============================================================================
@@ -99,7 +99,7 @@ build CMakeFiles/Aizo2.dir/SortAlgorythms/ShellSort/ShellSort.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable Aizo2.exe
 
-build Aizo2.exe: CXX_EXECUTABLE_LINKER__Aizo2_Debug CMakeFiles/Aizo2.dir/main.cpp.obj CMakeFiles/Aizo2.dir/menu.cpp.obj CMakeFiles/Aizo2.dir/sorts.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/HeapSort/HeapSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/InsertSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/QuickSort/QuickSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/ShellSort/ShellSort.cpp.obj
+build Aizo2.exe: CXX_EXECUTABLE_LINKER__Aizo2_Debug CMakeFiles/Aizo2.dir/App/main.cpp.obj CMakeFiles/Aizo2.dir/App/menu.cpp.obj CMakeFiles/Aizo2.dir/App/sorts.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/HeapSort/HeapSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/InsertSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/QuickSort/QuickSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/insertSortMenu.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Aizo2.dir

@@ -14,5 +14,5 @@ add_executable(Aizo2 App/main.cpp
         SortAlgorythms/InsertSort/InsertSort.h
         SortAlgorythms/QuickSort/QuickSort.cpp
         SortAlgorythms/QuickSort/QuickSort.h
-        SortAlgorythms/ShellSort/ShellSort.cpp
-        SortAlgorythms/ShellSort/ShellSort.h)
+        SortAlgorythms/InsertSort/insertSortMenu.cpp
+        SortAlgorythms/InsertSort/insertSortMenu.h)
