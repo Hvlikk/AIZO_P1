@@ -67,6 +67,30 @@ build CMakeFiles/Aizo2.dir/sorts.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$
   OBJECT_DIR = CMakeFiles\Aizo2.dir
   OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir
 
+build CMakeFiles/Aizo2.dir/SortAlgorythms/HeapSort/HeapSort.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/HeapSort/HeapSort.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\HeapSort\HeapSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Aizo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\HeapSort
+
+build CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/InsertSort.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/InsertSort/InsertSort.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\InsertSort\InsertSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Aizo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\InsertSort
+
+build CMakeFiles/Aizo2.dir/SortAlgorythms/QuickSort/QuickSort.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/QuickSort/QuickSort.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\QuickSort\QuickSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Aizo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\QuickSort
+
+build CMakeFiles/Aizo2.dir/SortAlgorythms/ShellSort/ShellSort.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/ShellSort/ShellSort.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\ShellSort\ShellSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Aizo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\ShellSort
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Aizo2
@@ -75,7 +99,7 @@ build CMakeFiles/Aizo2.dir/sorts.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$
 #############################################
 # Link the executable Aizo2.exe
 
-build Aizo2.exe: CXX_EXECUTABLE_LINKER__Aizo2_Debug CMakeFiles/Aizo2.dir/main.cpp.obj CMakeFiles/Aizo2.dir/menu.cpp.obj CMakeFiles/Aizo2.dir/sorts.cpp.obj
+build Aizo2.exe: CXX_EXECUTABLE_LINKER__Aizo2_Debug CMakeFiles/Aizo2.dir/main.cpp.obj CMakeFiles/Aizo2.dir/menu.cpp.obj CMakeFiles/Aizo2.dir/sorts.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/HeapSort/HeapSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/InsertSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/QuickSort/QuickSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/ShellSort/ShellSort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Aizo2.dir

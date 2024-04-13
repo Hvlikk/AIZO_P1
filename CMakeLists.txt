@@ -3,9 +3,16 @@ project(Aizo2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Aizo2 main.cpp
-        functions.h
-        sorts.h
-        menu.cpp
-        sorts.cpp
-        menu.h)
+add_executable(Aizo2 App/main.cpp
+        App/sorts.h
+        App/menu.cpp
+        App/sorts.cpp
+        App/menu.h
+        SortAlgorythms/HeapSort/HeapSort.cpp
+        SortAlgorythms/HeapSort/HeapSort.h
+        SortAlgorythms/InsertSort/InsertSort.cpp
+        SortAlgorythms/InsertSort/InsertSort.h
+        SortAlgorythms/QuickSort/QuickSort.cpp
+        SortAlgorythms/QuickSort/QuickSort.h
+        SortAlgorythms/ShellSort/ShellSort.cpp
+        SortAlgorythms/ShellSort/ShellSort.h)
