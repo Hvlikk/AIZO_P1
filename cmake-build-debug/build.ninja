@@ -49,47 +49,41 @@ cmake_ninja_workdir = C$:/Users/Miłosz/CLionProjects/Aizo2/cmake-build-debug/
 
 build cmake_object_order_depends_target_Aizo2: phony || CMakeFiles/Aizo2.dir
 
-build CMakeFiles/Aizo2.dir/App/main.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/main.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\App\main.cpp.obj.d
+build CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatMenu.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/DataTypeMenus/Float/FloatMenu.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Float\FloatMenu.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Float
 
-build CMakeFiles/Aizo2.dir/App/menu.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/menu.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\App\menu.cpp.obj.d
+build CMakeFiles/Aizo2.dir/App/DataTypeMenus/Char/CharMenu.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/DataTypeMenus/Char/CharMenu.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Char\CharMenu.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Char
 
-build CMakeFiles/Aizo2.dir/App/sorts.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/sorts.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\App\sorts.cpp.obj.d
+build CMakeFiles/Aizo2.dir/App/DataTypeMenus/Double/DoubleMenu.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/DataTypeMenus/Double/DoubleMenu.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Double\DoubleMenu.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Double
 
-build CMakeFiles/Aizo2.dir/SortAlgorythms/HeapSort/HeapSort.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/HeapSort/HeapSort.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\HeapSort\HeapSort.cpp.obj.d
+build CMakeFiles/Aizo2.dir/App/MainMenu/main.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/MainMenu/main.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\App\MainMenu\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\HeapSort
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App\MainMenu
 
-build CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/InsertSort.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/InsertSort/InsertSort.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\InsertSort\InsertSort.cpp.obj.d
+build CMakeFiles/Aizo2.dir/App/MainMenu/MainMenu.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/MainMenu/MainMenu.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\App\MainMenu\MainMenu.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\InsertSort
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App\MainMenu
 
-build CMakeFiles/Aizo2.dir/SortAlgorythms/QuickSort/QuickSort.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/QuickSort/QuickSort.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\QuickSort\QuickSort.cpp.obj.d
+build CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/DataTypeMenus/Int/IntMenu.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Int\IntMenu.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\QuickSort
-
-build CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/insertSortMenu.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/SortAlgorythms/InsertSort/insertSortMenu.cpp || cmake_object_order_depends_target_Aizo2
-  DEP_FILE = CMakeFiles\Aizo2.dir\SortAlgorythms\InsertSort\insertSortMenu.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Aizo2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\SortAlgorythms\InsertSort
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Int
 
 
 # =============================================================================
@@ -99,7 +93,7 @@ build CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/insertSortMenu.cpp.obj: CXX
 #############################################
 # Link the executable Aizo2.exe
 
-build Aizo2.exe: CXX_EXECUTABLE_LINKER__Aizo2_Debug CMakeFiles/Aizo2.dir/App/main.cpp.obj CMakeFiles/Aizo2.dir/App/menu.cpp.obj CMakeFiles/Aizo2.dir/App/sorts.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/HeapSort/HeapSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/InsertSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/QuickSort/QuickSort.cpp.obj CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/insertSortMenu.cpp.obj
+build Aizo2.exe: CXX_EXECUTABLE_LINKER__Aizo2_Debug CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Char/CharMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Double/DoubleMenu.cpp.obj CMakeFiles/Aizo2.dir/App/MainMenu/main.cpp.obj CMakeFiles/Aizo2.dir/App/MainMenu/MainMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Aizo2.dir

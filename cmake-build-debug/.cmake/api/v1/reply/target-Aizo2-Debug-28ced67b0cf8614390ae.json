@@ -54,11 +54,10 @@
 			[
 				0,
 				2,
-				3,
-				5,
-				7,
-				9,
-				11
+				4,
+				6,
+				8,
+				9
 			]
 		}
 	],
@@ -97,11 +96,10 @@
 			[
 				0,
 				2,
-				3,
-				5,
-				7,
-				9,
-				11
+				4,
+				6,
+				8,
+				9
 			]
 		},
 		{
@@ -109,11 +107,10 @@
 			"sourceIndexes" : 
 			[
 				1,
-				4,
-				6,
-				8,
-				10,
-				12
+				3,
+				5,
+				7,
+				10
 			]
 		}
 	],
@@ -122,73 +119,62 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "App/main.cpp",
+			"path" : "App/DataTypeMenus/Float/FloatMenu.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "App/sorts.h",
+			"path" : "App/DataTypeMenus/Float/FloatMenu.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "App/menu.cpp",
+			"path" : "App/DataTypeMenus/Char/CharMenu.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "App/sorts.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "App/menu.h",
+			"path" : "App/DataTypeMenus/Char/CharMenu.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "SortAlgorythms/HeapSort/HeapSort.cpp",
+			"path" : "App/DataTypeMenus/Double/DoubleMenu.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "SortAlgorythms/HeapSort/HeapSort.h",
+			"path" : "App/DataTypeMenus/Double/DoubleMenu.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "SortAlgorythms/InsertSort/InsertSort.cpp",
+			"path" : "App/MainMenu/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "SortAlgorythms/InsertSort/InsertSort.h",
+			"path" : "App/MainMenu/MainMenu.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "SortAlgorythms/QuickSort/QuickSort.cpp",
+			"path" : "App/MainMenu/MainMenu.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "SortAlgorythms/QuickSort/QuickSort.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "SortAlgorythms/InsertSort/insertSortMenu.cpp",
+			"path" : "App/DataTypeMenus/Int/IntMenu.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "SortAlgorythms/InsertSort/insertSortMenu.h",
+			"path" : "App/DataTypeMenus/Int/IntMenu.h",
 			"sourceGroupIndex" : 1
 		}
 	],
