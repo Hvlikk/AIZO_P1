@@ -85,6 +85,12 @@ build CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\Aizo2.dir
   OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Int
 
+build CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Generator.cpp.obj: CXX_COMPILER__Aizo2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/Aizo2/App/DataTypeMenus/Int/Generator.cpp || cmake_object_order_depends_target_Aizo2
+  DEP_FILE = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Int\Generator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Aizo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aizo2.dir\App\DataTypeMenus\Int
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Aizo2
@@ -93,7 +99,7 @@ build CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable Aizo2.exe
 
-build Aizo2.exe: CXX_EXECUTABLE_LINKER__Aizo2_Debug CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Char/CharMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Double/DoubleMenu.cpp.obj CMakeFiles/Aizo2.dir/App/MainMenu/main.cpp.obj CMakeFiles/Aizo2.dir/App/MainMenu/MainMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj
+build Aizo2.exe: CXX_EXECUTABLE_LINKER__Aizo2_Debug CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Char/CharMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Double/DoubleMenu.cpp.obj CMakeFiles/Aizo2.dir/App/MainMenu/main.cpp.obj CMakeFiles/Aizo2.dir/App/MainMenu/MainMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Generator.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Aizo2.dir

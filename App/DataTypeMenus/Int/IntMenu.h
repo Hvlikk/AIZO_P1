@@ -11,6 +11,7 @@ using namespace std;
 class IntMenu {
 public:
     void showMenu();
+    vector<int>& getData();
 private:
     vector<int> data;
 };

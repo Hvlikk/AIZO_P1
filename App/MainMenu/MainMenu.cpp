@@ -8,6 +8,7 @@ using namespace std;
 #include "../DataTypeMenus/Int/IntMenu.h"
 
 void MainMenu::showMenu(){
+    IntMenu intMenu;
     while(true){
         int x;
         cout << "Wybierz typ danych:\n";
@@ -19,7 +20,6 @@ void MainMenu::showMenu(){
         cin >> x;
         switch (x) {
             case 1:
-                IntMenu intMenu;
                 intMenu.showMenu();
                 continue;
             case 2:
