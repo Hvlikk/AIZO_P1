@@ -4,6 +4,7 @@
 
 #include "Algorythms/InsertSort.h"
 #include "IntSortMenu.h"
+#include "Algorythms/HeapSort.h"
 using namespace std;
 
 void IntSortMenu::showMenu(IntMenu &intMenu, int dataSize){
@@ -22,6 +23,8 @@ void IntSortMenu::showMenu(IntMenu &intMenu, int dataSize){
             case 2:
                 break;
             case 3:
+                HeapSort heapSort;
+                heapSort.heapSort(intMenu.getDataCopy());
                 break;
             case 4:
                 break;

@@ -16,7 +16,8 @@ void IntMenu::showMenu(){
         cout << "3. Wybor sortowania\n";
         cout << "4. Pokaz tablice(skopiowana)\n";
         cout << "5. Pokaz tablice(oryginal)\n";
-        cout << "6. Powrot do wyboru danych\n";
+        cout << "6. Skopiuj oryginal na kopie\n";
+        cout << "7. Powrot do wyboru danych\n";
         cin >> x;
         switch (x) {
             case 1:
@@ -37,6 +38,9 @@ void IntMenu::showMenu(){
                     cout << data[i] << endl;
                 break;
             case 6:
+                copyData();
+                break;
+            case 7:
                 return;
         }
     }
