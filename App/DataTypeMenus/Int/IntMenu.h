@@ -12,8 +12,12 @@ class IntMenu {
 public:
     void showMenu();
     vector<int>& getData();
+    vector<int>& getDataCopy();
+    int getDataSize();
+    void copyData();
 private:
     vector<int> data;
+    vector<int> dataCopy = data;
 };
 
 

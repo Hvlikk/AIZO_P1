@@ -17,4 +17,8 @@ add_executable(Aizo2
         App/DataTypeMenus/Int/IntMenu.h
         App/DataTypeMenus/Int/Generator.cpp
         App/DataTypeMenus/Int/Generator.h
+        App/DataTypeMenus/Int/IntSortMenu.cpp
+        App/DataTypeMenus/Int/IntSortMenu.h
+        App/DataTypeMenus/Int/Algorythms/InsertSort.cpp
+        App/DataTypeMenus/Int/Algorythms/InsertSort.h
 )

@@ -12,11 +12,11 @@ using namespace std;
 void Generator::showMenu(IntMenu &intMenu) {
     while(true){
         int x;
-        cout << "1. Losowa tablica:\n";
+        cout << "1. Losowa tablica\n";
         cout << "2. Posortowane 33%\n";
-        cout << "2. Posortowane 66%\n";
-        cout << "3. Uporzadkowana w dol\n";
-        cout << "4. Uporzadkowana w gore\n";
+        cout << "3. Posortowane 66%\n";
+        cout << "4. Uporzadkowana w dol\n";
+        cout << "5. Uporzadkowana w gore\n";
         cin >> x;
         switch (x) {
             case 1:
