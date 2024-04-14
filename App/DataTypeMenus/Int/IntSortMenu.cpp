@@ -6,6 +6,7 @@
 #include "IntSortMenu.h"
 #include "Algorythms/HeapSort.h"
 #include "Algorythms/IntBinaryInsSort.h"
+#include "Algorythms/QuickSortInt.h"
 using namespace std;
 
 void IntSortMenu::showMenu(IntMenu &intMenu, int dataSize){
@@ -30,7 +31,8 @@ void IntSortMenu::showMenu(IntMenu &intMenu, int dataSize){
                 heapSort.heapSort(intMenu.getDataCopy());
                 break;
             case 4:
-                break;
+                QuickSortInt quickSortInt;
+                quickSortInt.quickSort(intMenu.getDataCopy(), 0, intMenu.getDataSize());
             case 5:
                 return;
         }
