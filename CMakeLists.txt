@@ -23,4 +23,6 @@ add_executable(Aizo2
         App/DataTypeMenus/Int/Algorythms/InsertSort.h
         App/DataTypeMenus/Int/Algorythms/HeapSort.cpp
         App/DataTypeMenus/Int/Algorythms/HeapSort.h
+        App/DataTypeMenus/Int/Algorythms/IntBinaryInsSort.cpp
+        App/DataTypeMenus/Int/Algorythms/IntBinaryInsSort.h
 )

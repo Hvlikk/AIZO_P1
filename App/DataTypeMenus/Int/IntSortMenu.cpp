@@ -5,6 +5,7 @@
 #include "Algorythms/InsertSort.h"
 #include "IntSortMenu.h"
 #include "Algorythms/HeapSort.h"
+#include "Algorythms/IntBinaryInsSort.h"
 using namespace std;
 
 void IntSortMenu::showMenu(IntMenu &intMenu, int dataSize){
@@ -21,6 +22,8 @@ void IntSortMenu::showMenu(IntMenu &intMenu, int dataSize){
                 insertSort.sortTable(intMenu.getDataCopy(), dataSize);
                 break;
             case 2:
+                IntBinaryInsSort intBinaryInsSort;
+                intBinaryInsSort.BinaryInsertionSort(intMenu.getDataCopy());
                 break;
             case 3:
                 HeapSort heapSort;

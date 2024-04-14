@@ -1,20 +1,20 @@
 # ninja log v5
-595	683	7347574316870123	Aizo2.exe	8fd829d2fcfc61e3
+413	510	7347581985067263	Aizo2.exe	c8a4bd445d4c0051
 4	385	7347401794066466	CMakeFiles/Aizo2.dir/main.cpp.obj	d43d683090ca3b4f
-11	594	7347574315997110	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj	405a105d87bfce1a
+12	645	7347581221861730	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj	405a105d87bfce1a
 20	145	7347518000210947	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatMenu.cpp.obj	d4067f134706fd70
 42	174	7347424535516450	CMakeFiles/Aizo2.dir/SortAlgorythms/QuickSort/QuickSort.cpp.obj	30de78d0efd7d93
 13	66	7347391104475428	CMakeFiles/Aizo2.dir/sorts.cpp.obj	a8ff2b95813c3a37
 7	466	7347468151393053	CMakeFiles/Aizo2.dir/App/menu.cpp.obj	227453e6897246fa
 9	391	7347401794125314	CMakeFiles/Aizo2.dir/menu.cpp.obj	6ec4933dc2d40990
 15	795	7347530165378703	CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/InsertSort.cpp.obj	6d443b7824f5eddd
-2	255	7347576197252352	build.ninja	aac37ad36291039e
+2	255	7347586880035078	build.ninja	aac37ad36291039e
 33	176	7347424535535838	CMakeFiles/Aizo2.dir/SortAlgorythms/HeapSort/HeapSort.cpp.obj	89ae1b7f96196b50
 28	419	7347531100228512	CMakeFiles/Aizo2.dir/App/MainMenu/menu.cpp.obj	674d529992ad0b0f
 28	176	7347424535516450	CMakeFiles/Aizo2.dir/App/sorts.cpp.obj	7d79809d71fbdb07
 30	594	7347572247777059	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/InsertSort.cpp.obj	f5800f2fea18852a
 4	361	7347424816812574	CMakeFiles/Aizo2.dir/App/main.cpp.obj	a45646cc9db3fcc0
-12	398	7347572851307976	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntSortMenu.cpp.obj	98ed9f8137f860be
+10	412	7347581984124330	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntSortMenu.cpp.obj	98ed9f8137f860be
 5	421	7347471738035521	CMakeFiles/Aizo2.dir/SortAlgorythms/InsertSort/insertSortMenu.cpp.obj	b413587766e3d00
 25	138	7347518000133619	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Char/CharMenu.cpp.obj	a01acbce7306ad84
 29	139	7347518000133619	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Double/DoubleMenu.cpp.obj	13a739b580c4d87d
@@ -22,8 +22,7 @@
 14	71	7347539638565599	CMakeFiles/Aizo2.dir/App/MainMenu/main.cpp.obj	ac01b42ae7eeeb45
 23	537	7347530832082731	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/ShowTab.cpp.obj	c2f4bffc17c08ce8
 11	608	7347572247919150	CMakeFiles/Aizo2.dir/App/MainMenu/MainMenu.cpp.obj	6c585c3d1f388708
-17	443	7347581219838371	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntSortMenu.cpp.obj	98ed9f8137f860be
-12	645	7347581221861730	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj	405a105d87bfce1a
 15	209	7347581861389104	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/HeapSort.cpp.obj	68c68e3a29e4a72b
-10	412	7347581984124330	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntSortMenu.cpp.obj	98ed9f8137f860be
-413	510	7347581985067263	Aizo2.exe	c8a4bd445d4c0051
+17	206	7347588474514884	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/IntBinaryInsSort.cpp.obj	98a78d7915b9c01
+12	414	7347588476604606	CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntSortMenu.cpp.obj	98ed9f8137f860be
+414	512	7347588477535280	Aizo2.exe	c23507a63562eff1
