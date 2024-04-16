@@ -5,7 +5,7 @@
 #include "HeapSort.h"
 using namespace std;
 #include "vector"
-
+#include "chrono"
 void HeapSort::heapify(vector<int>& arr, int n, int i) {
     // Find largest among root, left child and right child
     int largest = i;
@@ -28,7 +28,6 @@ void HeapSort::heapify(vector<int>& arr, int n, int i) {
 // main function to do heap sort
 void HeapSort::heapSort(vector<int>& arr) {
     int n = arr.size();
-
     // Build max heap
     for (int i = n / 2 - 1; i >= 0; i--)
         heapify(arr, n, i);

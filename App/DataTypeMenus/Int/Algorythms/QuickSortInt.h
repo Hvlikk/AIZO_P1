@@ -6,7 +6,7 @@
 #define AIZO2_QUICKSORTINT_H
 #include "vector"
 using namespace std;
-
+#include "chrono"
 class QuickSortInt {
 public:
     void quickSort(vector<int>& array, int low, int high);

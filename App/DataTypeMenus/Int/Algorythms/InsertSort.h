@@ -8,11 +8,12 @@
 #include "iostream"
 #include "../IntMenu.h"
 #include "../IntSortMenu.h"
+#include "chrono"
 using namespace std;
 
 class InsertSort {
 public:
-    void sortTable(vector<int>& data, int dataSize);
+    void sortTable(vector<int>& data, int dataSize, vector<std::chrono::milliseconds>& timeData);
 };
 
 

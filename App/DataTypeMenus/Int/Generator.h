@@ -13,7 +13,11 @@ using namespace std;
 class Generator {
 public:
     void generateData(vector<int>& data, int n);
-    void showMenu(IntMenu &intMenu);
+    void generateSorted33Percent(vector<int>& data, int n);
+    void generateSorted66Percent(vector<int>& data, int n);
+    void generateSortedAscending(vector<int>& data, int n);
+    void generateSortedDescending(vector<int>& data, int n);
+    void showMenu(IntMenu &intMenu, int Option, int Size);
 
 };
 

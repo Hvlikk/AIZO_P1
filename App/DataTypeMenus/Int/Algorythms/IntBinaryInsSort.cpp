@@ -5,6 +5,7 @@
 #include "IntBinaryInsSort.h"
 using namespace std;
 #include "vector"
+#include "chrono"
 
 int IntBinaryInsSort::binarySearch(vector<int>& arr, int item, int low, int high) {
     if (high <= low)
@@ -18,9 +19,10 @@ int IntBinaryInsSort::binarySearch(vector<int>& arr, int item, int low, int high
 }
 
 
-void IntBinaryInsSort::BinaryInsertionSort(vector<int>& arr) {
+void IntBinaryInsSort::BinaryInsertionSort(vector<int>& arr, vector<std::chrono::milliseconds>& timeData) {
     int n = arr.size();
     int i, loc, j, selected;
+    auto start = std::chrono::high_resolution_clock::now();
     for (i = 1; i < n; ++i) {
         j = i - 1;
         selected = arr[i];
@@ -31,4 +33,7 @@ void IntBinaryInsSort::BinaryInsertionSort(vector<int>& arr) {
         }
         arr[j+1] = selected;
     }
+    auto end = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
+    timeData.push_back(duration);
 }
