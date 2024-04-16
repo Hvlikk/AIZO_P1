@@ -31,7 +31,7 @@ void IntSortMenu::showMenu(IntMenu &intMenu, int dataSize, int SortingAlgorythm,
                 callHeap(intMenu.getDataCopy(), timeData);
                 break;
             case 4:
-                callQuick(intMenu.getDataCopy(), 0, intMenu.getDataSize(), timeData);
+                callQuick(intMenu.getDataCopy(), 0, intMenu.getDataSize() - 1, timeData);
                 break;
             case 5:
                 return;

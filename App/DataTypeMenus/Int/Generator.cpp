@@ -24,6 +24,7 @@ void Generator::showMenu(IntMenu &intMenu, int Option, int Size) {
                 //cout << "Podaj liczbe elementow: \n";
                 //cin >> n;
                 generateData(intMenu.getData(), Size);
+                break;
             case 2:
                 generateSorted33Percent(intMenu.getData(), Size);
                 break;

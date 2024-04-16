@@ -31,11 +31,11 @@ void IntMenu::showMenu(){
                 intSortMenu.showMenu(*this, getDataSize(), 4, timeData);
                 break;
             case 3:
-                for (int i = 0 ; i < 100; i++){
+                for (int i = 0 ; i < 1; i++){
                     cout << i << endl;
-                    generator.showMenu(*this, 1, 10000);
+                    generator.showMenu(*this, 1, 10);
                     copyData();
-                    intSortMenu.showMenu(*this, getDataSize(), 2, timeData);
+                    intSortMenu.showMenu(*this, getDataSize(), 4, timeData);
                 }
                 saveData("10k_InsertBinary.txt", timeData);
                 break;

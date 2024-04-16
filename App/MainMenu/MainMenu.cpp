@@ -6,9 +6,10 @@
 #include "iostream"
 using namespace std;
 #include "../DataTypeMenus/Int/IntMenu.h"
-
+#include "../DataTypeMenus/Float/FloatMenu.h"
 void MainMenu::showMenu(){
     IntMenu intMenu;
+    FloatMenu floatMenu;
     while(true){
         int x;
         cout << "Wybierz typ danych:\n";
@@ -23,7 +24,8 @@ void MainMenu::showMenu(){
                 intMenu.showMenu();
                 continue;
             case 2:
-
+                floatMenu.showMenu();
+                continue;
             case 3:
 
             case 4:

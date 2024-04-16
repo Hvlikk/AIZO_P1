@@ -27,4 +27,16 @@ add_executable(Aizo2
         App/DataTypeMenus/Int/Algorythms/IntBinaryInsSort.h
         App/DataTypeMenus/Int/Algorythms/QuickSortInt.cpp
         App/DataTypeMenus/Int/Algorythms/QuickSortInt.h
+        App/DataTypeMenus/Float/FloatGenerator.cpp
+        App/DataTypeMenus/Float/FloatGenerator.h
+        App/DataTypeMenus/Float/FloatSortMenu.cpp
+        App/DataTypeMenus/Float/FloatSortMenu.h
+        App/DataTypeMenus/Float/Algorythms/FloatHeapSort.cpp
+        App/DataTypeMenus/Float/Algorythms/FloatHeapSort.h
+        App/DataTypeMenus/Float/Algorythms/FloatInsertSort.cpp
+        App/DataTypeMenus/Float/Algorythms/FloatInsertSort.h
+        App/DataTypeMenus/Float/Algorythms/FloatBinaryInsert.cpp
+        App/DataTypeMenus/Float/Algorythms/FloatBinaryInsert.h
+        App/DataTypeMenus/Float/Algorythms/FloatQuickSort.cpp
+        App/DataTypeMenus/Float/Algorythms/FloatQuickSort.h
 )
