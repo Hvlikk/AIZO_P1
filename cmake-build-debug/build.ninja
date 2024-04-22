@@ -163,16 +163,16 @@ build CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/Algorythms/FloatQuickSort.cpp
 
 
 #############################################
-# Link the executable Aizo2.exe
+# Link the executable C:\Users\Miłosz\CLionProjects\Aizo2\Aizo2.exe
 
-build Aizo2.exe: CXX_EXECUTABLE_LINKER__Aizo2_Debug CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Char/CharMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Double/DoubleMenu.cpp.obj CMakeFiles/Aizo2.dir/App/MainMenu/main.cpp.obj CMakeFiles/Aizo2.dir/App/MainMenu/MainMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Generator.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntSortMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/InsertSort.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/HeapSort.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/IntBinaryInsSort.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/QuickSortInt.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatGenerator.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatSortMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/Algorythms/FloatHeapSort.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/Algorythms/FloatInsertSort.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/Algorythms/FloatBinaryInsert.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/Algorythms/FloatQuickSort.cpp.obj
+build C$:/Users/Miłosz/CLionProjects/Aizo2/Aizo2.exe: CXX_EXECUTABLE_LINKER__Aizo2_Debug CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Char/CharMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Double/DoubleMenu.cpp.obj CMakeFiles/Aizo2.dir/App/MainMenu/main.cpp.obj CMakeFiles/Aizo2.dir/App/MainMenu/MainMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Generator.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/IntSortMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/InsertSort.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/HeapSort.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/IntBinaryInsSort.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Int/Algorythms/QuickSortInt.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatGenerator.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/FloatSortMenu.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/Algorythms/FloatHeapSort.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/Algorythms/FloatInsertSort.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/Algorythms/FloatBinaryInsert.cpp.obj CMakeFiles/Aizo2.dir/App/DataTypeMenus/Float/Algorythms/FloatQuickSort.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -Wl,--stack,16777216
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Aizo2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Aizo2.exe
+  TARGET_FILE = C:\Users\Miłosz\CLionProjects\Aizo2\Aizo2.exe
   TARGET_IMPLIB = libAizo2.dll.a
   TARGET_PDB = Aizo2.exe.dbg
 
@@ -202,7 +202,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Aizo2: phony Aizo2.exe
+build Aizo2: phony C$:/Users/Miłosz/CLionProjects/Aizo2/Aizo2.exe
+
+build Aizo2.exe: phony C$:/Users/Miłosz/CLionProjects/Aizo2/Aizo2.exe
 
 # =============================================================================
 # Folder targets.
@@ -212,7 +214,7 @@ build Aizo2: phony Aizo2.exe
 #############################################
 # Folder: C:/Users/Miłosz/CLionProjects/Aizo2/cmake-build-debug
 
-build all: phony Aizo2.exe
+build all: phony C$:/Users/Miłosz/CLionProjects/Aizo2/Aizo2.exe
 
 # =============================================================================
 # Built-in targets

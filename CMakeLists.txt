@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 MATH(EXPR stack_size "16 * 1024 * 1024") # 16 Mb
 set(CMAKE_EXE_LINKER_FLAGS "-Wl,--stack,${stack_size}")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "C:/Users/Miłosz/CLionProjects/Aizo2")
 
 add_executable(Aizo2
         App/DataTypeMenus/Float/FloatMenu.cpp

@@ -13,7 +13,6 @@ void Generator::showMenu(IntMenu &intMenu) {
     while(true){
         int x;
         int n;
-        cout << "Generuje.\n";
         cout << "1. Losowa tablica\n";
         cout << "2. Posortowane 33%\n";
         cout << "3. Posortowane 66%\n";
