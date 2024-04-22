@@ -17,7 +17,7 @@ public:
     void generateSorted66Percent(vector<float>& data, int n);
     void generateSortedAscending(vector<float>& data, int n);
     void generateSortedDescending(vector<float>& data, int n);
-    void showMenu(FloatMenu &floatMenu, int Option, int Size);
+    void showMenu(FloatMenu &floatMenu);
 
 };
 

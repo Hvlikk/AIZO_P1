@@ -18,6 +18,7 @@ public:
     int getDataSize();
     void copyData();
     void saveData(string name, vector<chrono::milliseconds>& timeData);
+    void readData();
 private:
     vector<int> data;
     vector<int> dataCopy = data;

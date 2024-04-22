@@ -13,15 +13,15 @@
 
 using namespace std;
 
-void FloatSortMenu::showMenu(FloatMenu &floatMenu, int dataSize, int SortingAlgorythm, vector<std::chrono::milliseconds>& timeData){
-    //int x;
+void FloatSortMenu::showMenu(FloatMenu &floatMenu, int dataSize, vector<std::chrono::milliseconds>& timeData){
+    int x;
     cout << "Wybierz algorytm:\n";
     cout << "1. InsertSort\n";
     cout << "2. InsertSort Binarnie\n";
     cout << "3. HeapSort\n";
     cout << "4. QuickSort\n";
-    //cin >> x;
-    switch (SortingAlgorythm) {
+    cin >> x;
+    switch (x) {
         case 1:
             FloatInsertSort insertSort;
             insertSort.sortTable(floatMenu.getDataCopy(), dataSize, timeData);

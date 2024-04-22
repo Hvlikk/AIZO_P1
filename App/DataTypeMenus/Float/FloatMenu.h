@@ -17,6 +17,7 @@ public:
     vector<std::chrono::milliseconds>& getFloatTimeData();
     int getDataSize();
     void copyData();
+    void readFloatData();
     void saveFloatData(string name, vector<chrono::milliseconds>& floatTimeData);
 private:
     vector<float> floatData;

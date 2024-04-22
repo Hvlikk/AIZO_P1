@@ -11,7 +11,7 @@ using namespace std;
 
 class FloatSortMenu {
 public:
-    void showMenu(FloatMenu &floatMenu, int dataSize, int SortingAlgorythm, vector<std::chrono::milliseconds>& timeData);
+    void showMenu(FloatMenu &floatMenu, int dataSize, vector<std::chrono::milliseconds>& timeData);
     void callHeap(vector<float>& array, vector<std::chrono::milliseconds>& timeData);
     void callQuick(vector<float>& array, int low, int high, vector<std::chrono::milliseconds>& timeData);
 };

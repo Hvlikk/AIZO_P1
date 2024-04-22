@@ -24,20 +24,15 @@ void IntMenu::showMenu(){
         cin >> x;
         switch (x) {
             case 1:
-                generator.showMenu(*this, 5, 30);
+                generator.showMenu(*this);
                 copyData();
                 break;
             case 2:
-                intSortMenu.showMenu(*this, getDataSize(), 4, timeData);
+                readData();
+                copyData();
                 break;
             case 3:
-                for (int i = 0 ; i < 1; i++){
-                    cout << i << endl;
-                    generator.showMenu(*this, 1, 10);
-                    copyData();
-                    intSortMenu.showMenu(*this, getDataSize(), 4, timeData);
-                }
-                saveData("10k_InsertBinary.txt", timeData);
+                intSortMenu.showMenu(*this, getDataSize(), timeData);
                 break;
             case 4:
                 for (int i = 0; i < dataCopy.size();i++)
@@ -86,4 +81,22 @@ void IntMenu::saveData(string fileName, vector<chrono::milliseconds>& timeData){
         cout << "Zapisano dane do pliku.\n";
     }
     timeData.clear();
+}
+
+void IntMenu::readData(){
+    string fileName;
+    cout << "Podaj nazwe pliku" << endl;
+    cin >> fileName;
+    ifstream file(fileName);
+    if (file.is_open()){
+        data.clear();
+        int value;
+        while (file >> value) {
+            data.push_back(value);
+        }
+        file.close();
+        cout << "Wczytano dane z pliku.\n";
+    } else {
+        cout << "Nie udalo sie otworzyc pliku.\n";
+    }
 }

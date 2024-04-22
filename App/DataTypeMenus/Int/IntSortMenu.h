@@ -9,7 +9,7 @@
 using namespace std;
 class IntSortMenu {
 public:
-    void showMenu(IntMenu &intMenu, int dataSize, int SortingAlgorythm, vector<std::chrono::milliseconds>& timeData);
+    void showMenu(IntMenu &intMenu, int dataSize, vector<std::chrono::milliseconds>& timeData);
     void callHeap(vector<int>& array, vector<std::chrono::milliseconds>& timeData);
     void callQuick(vector<int>& array, int low, int high, vector<std::chrono::milliseconds>& timeData);
 };
